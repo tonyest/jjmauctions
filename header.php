@@ -100,4 +100,7 @@
 	<div id="content" <?php global $fullwidth; if ( is_page_template('page-full.php') || $fullwidth ) echo 'class="no_sidebar"'?>>
 		<div class="container clearfix">
 			<?php global $market_systems; ?>
-				<?php if (get_option('estore_deals_in_index') == 'on' && $market_systems['auctions']->is_index() ) include(TEMPLATEPATH . '/includes/scroller.php'); ?>			
+				<?php if (get_option('estore_deals_in_index') == 'on' && $market_systems['auctions']->is_index() ) {?>
+					<div class="container clearfix">
+					<?php include(TEMPLATEPATH . '/includes/scroller.php'); 
+				} ?>
