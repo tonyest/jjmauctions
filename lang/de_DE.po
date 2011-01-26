@@ -1,0 +1,277 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eStore 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-12-04 00:24+0600\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ann <anochka1985@gmail.com>\n"
+"Language-Team: Ann <anochka1985@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../footer.php:6
+msgid "Designed by "
+msgstr "Designed by"
+
+#: ../footer.php:6
+msgid "Powered by "
+msgstr "Powered by"
+
+#: ../functions.php:18
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:19
+msgid "Secondary Menu"
+msgstr ""
+
+#: ../header.php:51
+#: ../header.php:83
+msgid "Home"
+msgstr "Startseite"
+
+#: ../header.php:64
+msgid "search this site..."
+msgstr "suchen..."
+
+#: ../page-blog.php:40
+#: ../page-contact.php:81
+#: ../page-full.php:26
+#: ../page-gallery.php:36
+#: ../page-login.php:33
+#: ../page-search.php:33
+#: ../page-search.php:43
+#: ../page-sitemap.php:33
+#: ../page-sitemap.php:37
+#: ../page-temp.php:26
+#: ../page.php:20
+msgid "Pages"
+msgstr "Seiten"
+
+#: ../page-blog.php:52
+msgid "Posted"
+msgstr ""
+
+#: ../page-blog.php:52
+msgid "by"
+msgstr ""
+
+#: ../page-blog.php:52
+msgid "on"
+msgstr "am"
+
+#: ../page-blog.php:52
+msgid "in"
+msgstr "in"
+
+#: ../page-blog.php:52
+msgid "0 comments"
+msgstr ""
+
+#: ../page-blog.php:52
+msgid "1 comment"
+msgstr ""
+
+#: ../page-blog.php:52
+msgid "comments"
+msgstr ""
+
+#: ../page-blog.php:72
+msgid "read more"
+msgstr ""
+
+#: ../page-blog.php:91
+#: ../page-contact.php:128
+#: ../page-full.php:27
+#: ../page-gallery.php:75
+#: ../page-login.php:50
+#: ../page-search.php:79
+#: ../page-sitemap.php:70
+#: ../page-temp.php:27
+#: ../page.php:21
+msgid "Edit this page"
+msgstr "Seite bearbeiten"
+
+#: ../page-contact.php:22
+msgid "Make sure you entered the captcha. "
+msgstr ""
+
+#: ../page-contact.php:25
+msgid "Numbers regenerated."
+msgstr ""
+
+#: ../page-contact.php:26
+msgid "You entered the wrong number in captcha. "
+msgstr ""
+
+#: ../page-contact.php:35
+msgid "Make sure you fill all fields. "
+msgstr ""
+
+#: ../page-contact.php:40
+msgid "Invalid Email. "
+msgstr ""
+
+#: ../page-contact.php:60
+msgid "Thanks for contacting us"
+msgstr ""
+
+#: ../page-contact.php:91
+msgid "Name"
+msgstr ""
+
+#: ../page-contact.php:95
+msgid "Email Address"
+msgstr ""
+
+#: ../page-contact.php:99
+msgid "Subject"
+msgstr ""
+
+#: ../page-contact.php:106
+msgid "Captcha: "
+msgstr ""
+
+#: ../page-contact.php:115
+msgid "Message"
+msgstr ""
+
+#: ../page-contact.php:120
+msgid "Reset"
+msgstr ""
+
+#: ../page-contact.php:121
+#: ../page-search.php:71
+msgid "Submit"
+msgstr ""
+
+#: ../page-gallery.php:57
+msgid "Zoom in"
+msgstr ""
+
+#: ../page-gallery.php:58
+msgid "Read more"
+msgstr ""
+
+#: ../page-login.php:39
+msgid "Username"
+msgstr ""
+
+#: ../page-login.php:40
+msgid "Password"
+msgstr ""
+
+#: ../page-login.php:44
+msgid "Not a member?"
+msgstr ""
+
+#: ../page-login.php:44
+msgid "Register today!"
+msgstr ""
+
+#: ../page-search.php:37
+#, fuzzy
+msgid "search this website"
+msgstr "suchen..."
+
+#: ../page-search.php:42
+#, fuzzy
+msgid "Posts"
+msgstr "Gepostet von"
+
+#: ../page-search.php:46
+msgid "Select a month"
+msgstr ""
+
+#: ../page-sitemap.php:42
+msgid "Categories"
+msgstr ""
+
+#: ../page-sitemap.php:47
+#, fuzzy
+msgid "Tags"
+msgstr "Seiten"
+
+#: ../page-sitemap.php:63
+msgid "Authors"
+msgstr ""
+
+#: ../searchform.php:4
+msgid "Search"
+msgstr "Suchen"
+
+#: ../includes/breadcrumbs.php:8
+msgid "Posts Tagged &quot;"
+msgstr "Artikel getaggt mit &quot;"
+
+#: ../includes/breadcrumbs.php:10
+#: ../includes/breadcrumbs.php:12
+#: ../includes/breadcrumbs.php:14
+msgid "Posts made in"
+msgstr "Gepostet im"
+
+#: ../includes/breadcrumbs.php:16
+msgid "Search results for"
+msgstr "Suchresultate"
+
+#: ../includes/breadcrumbs.php:28
+msgid "Posts by "
+msgstr "Gepostet von"
+
+#: ../includes/entry.php:26
+#: ../includes/featured.php:67
+msgid "more info"
+msgstr "mehr Informationen"
+
+#: ../includes/navigation.php:2
+msgid "&laquo; Older Entries"
+msgstr "&laquo; &Auml;ltere Eintr&auml;ge"
+
+#: ../includes/navigation.php:3
+msgid "Next Entries &raquo;"
+msgstr "Neuere Eintr&auml;ge &raquo;"
+
+#: ../includes/no-results.php:3
+msgid "No Results Found"
+msgstr "Nicht gefunden"
+
+#: ../includes/no-results.php:4
+msgid "The page you requested could not be found. Try refining your search, or use the navigation above to locate the post."
+msgstr "Keine Seite gefunden. Etwas anderes Suchen?"
+
+#: ../includes/scroller.php:1
+msgid "Deals Of The Day"
+msgstr "Angebote des Tages"
+
+#: ../includes/scroller.php:4
+msgid "Previous"
+msgstr "&Auml;ltere"
+
+#: ../includes/scroller.php:60
+msgid "Next"
+msgstr "Neuere"
+
+#: ../includes/single-product.php:40
+msgid "Added"
+msgstr "Hinzugefügt "
+
+#: ../includes/single-product.php:46
+msgid "Add to cart"
+msgstr "Einkaufswagen"
+
+#: ../includes/single-product.php:60
+msgid "Product Information"
+msgstr "Product Information"
+
+#: ../includes/single-product.php:84
+msgid "Related Products"
+msgstr "Verwandte Produkte"
+

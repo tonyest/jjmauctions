@@ -1,0 +1,25 @@
+#menu { background:url("images/green/secondary-menu.png") no-repeat; }
+	ul#secondary-menu li.current_page_item > a > strong, ul#secondary-menu li a:hover strong, ul#secondary-menu li.current-menu-item > a > strong { color:#ffc045; }
+		ul#secondary-menu li a span { color:#d5f3b8; text-shadow:1px 1px 1px #6e9234; }
+		ul#secondary-menu li a:hover span { color: #d5f3b8; }
+		
+		ul#secondary-menu ul { background:url("images/green/secondary-dropdown.png") repeat-y; }
+			ul#secondary-menu ul li { background:url("images/green/secondary-dropdown-bottom.png") repeat-x left bottom; }
+				ul#secondary-menu ul li a:hover { background-color: #88b34c; color: #ffc045; }
+
+span.price-single { background:url("images/green/price-single.png") no-repeat right top; }
+	span.price-single span { background:url("images/green/price-single.png") no-repeat left top; }
+				
+#switcher a.product span.tag { background:url("images/green/featured-small-tag.png") no-repeat bottom right; }
+	#switcher a.product span.tag span { background:url("images/green/featured-small-tag.png") no-repeat; }
+
+.description .product span.tag { background:url("images/green/featured-description-tag.png") no-repeat right bottom; }
+	.description .product span.tag span { background:url("images/green/featured-description-tag.png") no-repeat; }
+	
+.wp-pagenavi span.current { color:#739a3b !important; }
+
+/*------------------------------------------------*/
+.no_sidebar #main-content{width: 960px !important; background-image:url("images/main-bg-full.png") !important;}
+.no_sidebar  #main-area{background-image:url("images/content-top-full.png") !important;}
+.no_sidebar  #main-area-bottom{background-image:url("images/content-bottom-full.png")  !important;}
+.no_sidebar #left-column {width:960px;}

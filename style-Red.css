@@ -1,0 +1,23 @@
+#menu { background:url("images/red/secondary-menu.png") no-repeat; }
+	ul#secondary-menu li.current_page_item > a > strong, ul#secondary-menu li a:hover strong, ul#secondary-menu li.current-menu-item > a > strong { color:#ffc045; }
+		ul#secondary-menu li a span { color:#ebc7c2; text-shadow:1px 1px 1px #742e28; }
+		ul#secondary-menu li a:hover span { color: #ebc7c2; }
+		
+		ul#secondary-menu ul { background:url("images/red/secondary-dropdown.png") repeat-y; }
+			ul#secondary-menu ul li { background:url("images/red/secondary-dropdown-bottom.png") repeat-x left bottom; }
+				ul#secondary-menu ul li a:hover { background-color: #a1534b; color: #ffc045; }
+	
+#switcher a.product span.tag { background:url("images/red/featured-small-tag.png") no-repeat bottom right; }
+	#switcher a.product span.tag span { background:url("images/red/featured-small-tag.png") no-repeat; }
+
+.description .product span.tag { background:url("images/red/featured-description-tag.png") no-repeat right bottom; }
+	.description .product span.tag span { background:url("images/red/featured-description-tag.png") no-repeat; }
+	
+.wp-pagenavi span.current { color:#8f3f37 !important; }
+
+
+/*------------------------------------------------*/
+.no_sidebar #main-content{width: 960px !important; background-image:url("images/main-bg-full.png") !important;}
+.no_sidebar  #main-area{background-image:url("images/content-top-full.png") !important;}
+.no_sidebar  #main-area-bottom{background-image:url("images/content-bottom-full.png")  !important;}
+.no_sidebar #left-column {width:960px;}

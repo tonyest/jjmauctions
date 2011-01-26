@@ -1,0 +1,12 @@
+span.sf-sub-indicator {padding-left: 2px;}
+div#header { z-index: 2; position: relative; }
+div#featured-slider { z-index: 1; position: relative; }
+
+ul#top-menu { position: absolute; left: 200px; top: 0px; z-index: 100; }
+
+a.more:hover, #product-thumbs a:hover { cursor: pointer; }
+
+#scroller { margin-bottom:5px; }
+#main-area { padding-top: 4px; }
+
+.wp-pagenavi span.current, .wp-pagenavi span.extend, .wp-pagenavi a:active, .wp-pagenavi a:hover, .wp-pagenavi a:link { padding-top:8px !important; }
