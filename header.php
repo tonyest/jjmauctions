@@ -93,9 +93,11 @@
 		</div> <!-- .container -->
 	</div> <!-- #header -->
 		
-	<!-- <?php if (get_option('estore_featured') == 'on' && (is_home() || is_front_page())) include(TEMPLATEPATH . '/includes/featured.php'); ?> -->
-	<?php global $market_systems; ?>
-		<?php if (get_option('estore_featured') == 'on' && (is_home() || is_front_page() || $market_systems['auctions']->is_index() )) include(TEMPLATEPATH . '/includes/featured.php'); ?>
-	
+	<?php
+	 if (get_option('estore_featured') == 'on' && (is_home() || is_front_page())) include(TEMPLATEPATH . '/includes/featured.php'); 
+	?>
+		
 	<div id="content" <?php global $fullwidth; if ( is_page_template('page-full.php') || $fullwidth ) echo 'class="no_sidebar"'?>>
 		<div class="container clearfix">
+			<?php global $market_systems; ?>
+				<?php if (get_option('estore_deals_in_index') == 'on' && $market_systems['auctions']->is_index() ) include(TEMPLATEPATH . '/includes/scroller.php'); ?>			

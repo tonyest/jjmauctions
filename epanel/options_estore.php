@@ -137,7 +137,13 @@ $options = array (
                    "type" => "checkbox",
 				   "std" => "on",
 				   "desc" => "desc."),
-				   			
+
+			array( "name" => "Display 'Deals Of The Day' on Prospress Index Page",
+					"id" => $shortname."_deals_in_index",
+					"type" => "checkbox",
+					"std" => "on",
+					"desc" => "desc."),
+					
 			array( "type" => "clearfix",),
 			
 			array( "name" => "'Deals Of The Day' Taxonomy",

@@ -7,7 +7,8 @@ $titletext = get_the_title();
 $thumbnail = get_thumbnail($width,$height,$classtext,$titletext,$titletext,true);
 $thumb = $thumbnail["thumb"]; 
 $custom = get_post_custom($post->ID);
-if( isset( $market_systems ) && get_post_type( $post ) == 'auctions' ){// Prospress
+global $market_systems;
+if( isset( $market_systems ) && get_post_type( $post ) == $market_systems['auctions']->name() ){// Prospress
 	$winning_bid = $market_systems['auctions']->the_winning_bid_value( $post->ID, false );
 	$price = isset( $winning_bid ) ? $winning_bid : '';
 } else {

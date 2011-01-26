@@ -10,8 +10,6 @@
 				
 	$featured_cat = get_option('estore_feat_cat'); 
 	$featured_num = get_option('estore_featured_num');
-	$featured_tax = get_option('estore_featured_tax');
-
 
 	global $market_systems;
 	if( isset( $market_systems ) ){// Prospress
@@ -88,8 +86,7 @@
 			</div> <!-- .slide -->
 		<?php }; ?>
 	</div> <!-- #slides-->
-	
-	
+
 	<div id="controllers">
 		<div class="container">
 			<div id="switcher">

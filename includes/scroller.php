@@ -3,7 +3,7 @@
 <div id="scroller" class="clearfix">
 	<a href="#" id="left-arrow"><?php _e('Previous','eStore'); ?></a>
 
-	<div id="items">
+	<div id="items" style="white-space:nowrap;">
 		
 		<?php $dealsNum = get_option('estore_deals_numposts');
 global $market_systems;
@@ -42,14 +42,16 @@ global $market_systems;
 					'exclude'	=> implode(',',$include),
 				    'post_status'     => 'publish' );
 				$results = get_posts( $args );
-				foreach( $results as $post ) {
+				foreach ( $results as $post ) {
 					$include[] = $post->ID;
 				}
 				unset($results);
 			endif;
 			$args = array(
 				'post_type'=> $market_systems['auctions']->name(),
-				'post__in'=> $include
+				'post__in'=> $include,
+				'order'=> 'asc',
+				'orderby'=>'rand'
 				);
 		} else {
 			$args=array(
