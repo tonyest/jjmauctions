@@ -103,12 +103,7 @@ wp_enqueue_script('thickbox');
 							</p>
 						<?php }; ?>
 						<div id="shipping-wrapper">
-							<a href="#TB_inline?&width=300&height=200&inlineId=shipping&modal=false" class="thickbox" title="Shipping & Handling" style="color:orange;font-size:.8em">shipping details</a>
-							<div id="shipping" style="display:none;">
-								<p style="margin-top:1.4em;">
-									<?php if( function_exists('the_shipping_details') ) the_shipping_details();?>
-								<p>
-							</div>
+							<?php do_action('pp_single_shipping_details'); ?>
 						</div>
 					<div class="clearfix">
 						<?php if ($et_price <> '') { ?>
