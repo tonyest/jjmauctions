@@ -868,19 +868,3 @@ $options = array (
 //-------------------------------------------------------------------------------------//	
 			
 );
-
-
-function custom_colors_css(){
-	global $shortname; ?>
-	
-	<style type="text/css">
-		body { color: #<?php echo(get_option($shortname.'_color_mainfont')); ?>; }
-		body { background-color: #<?php echo(get_option($shortname.'_color_bgcolor')); ?>; }
-		.post a:link, .post a:visited { color: #<?php echo(get_option($shortname.'_color_mainlink')); ?>; }
-		ul.nav li a { color: #<?php echo(get_option($shortname.'_color_pagelink')); ?>; }
-		#sidebar h3 { color:#<?php echo(get_option($shortname.'_color_sidebar_titles')); ?>; }
-		#footer, p#copyright { color:#<?php echo(get_option($shortname.'_color_footer')); ?> !important; }
-		#footer a { color:#<?php echo(get_option($shortname.'_color_footer_links')); ?> !important; }
-	</style>
-
-<?php }; ?>

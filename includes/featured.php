@@ -10,7 +10,7 @@
 				
 	$featured_cat = get_option('estore_feat_cat'); 
 	$featured_num = get_option('estore_featured_num');
-	error_log('query feature');
+
 	global $market_systems;
 	if( isset( $market_systems ) ){// Prospress
 		global $pages_number;

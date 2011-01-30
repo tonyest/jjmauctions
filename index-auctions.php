@@ -32,7 +32,6 @@ wp_enqueue_style( 'prospress',  PP_CORE_URL . '/prospress.css' );
 		$merge = array_merge(array( 'post_type' => $market->name(), 'post_status' => 'publish' ), $args);
 		?>
 		<?php query_posts( $merge )?>
-		<?php// query_posts( array( 'post_type' => $market->name(), 'post_status' => 'publish' ) ); ?>
 			<?php $i = 1; ?>
 			
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -47,7 +46,7 @@ wp_enqueue_style( 'prospress',  PP_CORE_URL . '/prospress.css' );
 				<?php } ?>					
 			<?php else : ?>
 				<?php include(TEMPLATEPATH . '/includes/no-results.php'); ?>
-			<?php endif;// wp_reset_query(); ?>
+			<?php endif;?>
 		</div> <!-- #left-column -->
 	
 		<div id="sidebar">

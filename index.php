@@ -8,12 +8,14 @@ if (is_category()) $post_number = get_option('estore_catnum_posts'); ?>
 
 <div id="main-area">
 	<div id="main-content" class="clearfix">
-
-		<?php
-		if (is_category()) 
-		//query_posts($query_string . "&showposts=$post_number&paged=$paged&cat=$cat");
+		<?php error_log('index')?>
+<?php if(is_single())
+		error_log('single');
+	?>
+		<?php if (is_category()) 
+			query_posts($query_string . "&showposts=$post_number&paged=$paged&cat=$cat");
 		else 
-		//query_posts($query_string . "&showposts=$post_number&paged=$paged"); ?>
+			query_posts($query_string . "&showposts=$post_number&paged=$paged"); ?>
 
 		<div id="left-column">
 			<?php $i = 1; ?>

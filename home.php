@@ -8,7 +8,6 @@
 		'paged'=>$paged,
 		'category__not_in' => get_option('estore_exlcats_recent'),
 	);
-	error_log('query home');
 	if (get_option('estore_duplicate') == 'false') $args['post__not_in'] = $ids;
 	query_posts($args); ?>
 

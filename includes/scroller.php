@@ -31,8 +31,8 @@
 				$include[] = $post->ID;
 			}
 			unset($results);
-			if( sizeof($include) > 5 ):
-				array_slice ( $include , 0 , $dealsNum );
+			if( sizeof($include) > 4 ):
+				// array_slice( $include , 0 , $dealsNum );
 			else:
 	 			$args = array(
 				    'numberposts'     => $dealsNum - sizeof($include),
@@ -47,6 +47,7 @@
 				unset($results);
 			endif;
 			$args = array(
+				'numberposts'=>$dealsNum,
 				'post_type'=> $market_systems['auctions']->name(),
 				'post__in'=> $include,
 				'order'=> 'asc',
@@ -59,10 +60,9 @@
 			);
 		}
 		$posts = get_posts($args);
-		// query_posts($args);
+
 		$i = 0;
-		foreach ( $posts as $post ) {
-		// if (have_posts()) : while (have_posts()) : the_post(); ?>
+		foreach ( $posts as $post ) {?>
 			<?php if ( ($i % 4 == 0) || ($i == 0) ) echo ('<div class="block">'); ?>
 			
 				<div class="item<?php if (($i+1) % 4 == 0) echo(' last'); ?>">
@@ -106,8 +106,6 @@
 			
 			<?php $i++; ?>
 			
-		<?php// endwhile; ?>
-		<?php// endif;?>
 		<?php } //foreach?>
 		<?php if ($dealsNum % 4 <> 0) echo('</div><!-- end .block-->'); ?>
 		<?php unset($posts); ?>
