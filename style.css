@@ -1,0 +1,31 @@
+/*
+Theme Name: Prospress eStore - an eStore child-theme
+Theme URI: 
+Description: A customised eStore theme to work with Prospress auctions
+Author: Anthony Khoo / Brent Shepherd - Leonard's Ego
+Version: 1.0
+Template: eStore
+Tags: custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style, prospress, auctions, custom-index, custom-single
+*/
+/* - -  - - Prospress eStore stylesheet extends eStore style.css - - - - - */
+
+@import url('../eStore/style.css');
+
+div.sub-left-column {
+	clear:left;
+	float:left
+}	
+div.description { 
+	float:left;
+	width: 298px;clear:left;
+	font-style: italic;
+	font-size: 14px;
+	margin: 15px 0px 0px;
+}
+div#bid-history { 
+	margin:7px 0;
+}
+/*	widen to accomodate fat pictures in scroller*/
+.container { 
+	width:1053px;
+}
